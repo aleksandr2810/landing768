@@ -1,0 +1,148 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .head {
+    width: 768px;
+    height: 1100px;
+    background-color: aquamarine;
+    .head__head{
+      display: flex;
+      flex-direction:row;
+    }
+
+    .va {
+      padding-left: 40px;
+      padding-top: 66px;
+      font-size: 48px;
+    }
+    .sety{
+      padding-top: 66px;
+      padding-left: 400px;
+      img{
+        margin-right: 20px;
+      }
+    }
+    .menu{
+      padding-top: 66px;
+      padding-left: 90px;
+    }
+
+    .name {
+      font-size: 48px;
+    }
+
+    .texts {
+      text-align: center;
+      padding-top: 226px;
+
+    }
+
+    .text {
+      padding-bottom: 40px;
+      font-size: 16px;
+    }
+
+    .text1 {
+      padding-bottom: 20px;
+    }
+
+    .text2 {
+      padding-bottom: 20px;
+    }
+  }
+
+  .myself {
+    height: 465px;
+    width: 768px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .avatar {
+      height: 210px;
+      width: 300px;
+    }
+
+    .data {
+      height: 230px;
+      display: flex;
+      flex-direction: row;
+      padding-left: 30px;
+
+
+
+      .data__data1 {
+        padding-left: 40px;
+        line-height: 30px;
+        list-style-type: none;
+      }
+
+      .data__data {
+        line-height: 30px;
+        list-style-type: none;
+      }
+    }
+
+    .text {
+      font-size: 14px;
+
+      .text4 {
+        font-size: 30px;
+      }
+
+      .text33 {
+        padding-bottom: 18px;
+        padding-top: 10px;
+      }
+
+      .text3 {
+        padding-top: 50px;
+      }
+    }
+  }
+
+  .benefit {
+    height: 1070px;
+    width: 768px;
+    background-color: gray;
+
+    .benefit__text {
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      .benefit__text1 {
+        padding-bottom: 26px;
+        font-size: 30px;
+      }
+    }
+
+  }
+
+
+  .work {
+    height: 980px;
+    width: 768px;
+    background-color: hotpink;
+  }
+
+  .picture {
+    height: 1070px;
+    width: 768px;
+    background-color: darkkhaki;
+  }
+
+  .foot {
+    height: 480px;
+    width: 768px;
+    background-color: mediumvioletred;
+
+  }
+}
