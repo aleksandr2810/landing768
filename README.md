@@ -21,10 +21,16 @@ An Easy way to start jQuery/SCSS project with Bebel and Webpack.
 
 ## Installation Commands
 
-- `git clone git@github.com:harishekhar/scss-jquery-boilerplate.git`
-- `cd scss-jquery-boilerplate`
 - `npm install` - Install all dependencies
-- `npm run start` - Start your webpack-server
-- `npm run build` - Create build files with compiled SCSS and bundled jQuery
+- `npm start` - Start your webpack-server
+- `npm build` - Create build files with compiled SCSS and bundled jQuery
+
+Перед тем как пушить введи:
+
+- 'git status' - для того чтоб увидеть состояние приложения (своего проекта)
+- 'git add .' - для того чтоб добавить все узмененные файлы в индекс гита
+- 'git commit -m "название комита"' - для того чтоб дать название своим текущим изменения 
+- 'git push' - для того чтоб отправить свои изменения на github
+- 'git pull' - если есть изменения на сервере которых нет у тебя, то ввести эту команду для скачивания этих изменения
 
 MIT © Hari Shekhar
