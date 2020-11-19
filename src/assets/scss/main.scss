@@ -385,10 +385,11 @@ body {
       /* Слайд */
       .slick-slide{
         display: flex;
-        justify-content: flex-end;
+        //justify-content: flex-end;
       }
       /* Слайд активный (показывается) */
       .slick-slide.slick-active{
+
       }
       /* Слайд основной */
       .slick-slide.slick-current{
@@ -416,30 +417,44 @@ body {
       .slick-dots li.slick-active{}
       /* Элемент точки */
       .slick-dots li button{}
+      button{
+        font-size: 0;
+      }
 
       .slider {
         position: relative;
         margin-top: -140px;
+        padding-left: 93px;
+        //padding-right: 50px;
+      }
+      .slider .slick-list{
+        width: 530px;
+      }
+      .slider .slick-slide.slick-current img{
+        border: 2px solid orange;
       }
       .slider .slick-arrow {
         position: absolute;
-        width: 40px;
-        height: 40px;
-        font-size: 0;
+        width: 50px;
+        height: 50px;
+        //font-size: 0;
         z-index: 10;
+        background-color: #353e4f;
       }
 
       .slider .slick-arrow.slick-prev{
-        margin-left: 650px;
+        margin-left: 649px;
         margin-top: 20px;
-        background: url("https://icon-icons.com/icons2/1339/PNG/32/arrowpointingleft_87473.png") 0 0/ 100% no-repeat;
       }
       .slider .slick-arrow.slick-next {
-        margin-right: 80px;
-        margin-top: -25px;
-        background: url("https://icon-icons.com/icons2/2024/PNG/32/skip_track_arrow_right_icon_123815.png") 0 0/ 100% no-repeat;
-
-
+        margin-right: 74px;
+        margin-top: -29px;
+      }
+      button.slick-next.slick-arrow:before{
+        content: '>';
+      }
+      button.slick-prev.slick-arrow:before{
+        content: '<';
       }
     }
     .tegi {
@@ -453,7 +468,7 @@ body {
         margin-right: 30px;
         border: none;
         border-radius: 25px;
-        background-color: lightblue;
+        background-color: #f3f5f9;
         padding: 10px;
         font-weight: bold;
         color: gray;
@@ -472,7 +487,7 @@ body {
     }
 
     h3 {
-      color: lightblue;
+      color: #8595df;
       font-weight: bold;
       font-size: 16px;
     }

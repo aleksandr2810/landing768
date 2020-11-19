@@ -14,8 +14,9 @@ $(this).toggleClass('menu-btn_active');
 
 $(document).ready(function () {
     $('.slider').slick({
-        slidesToShow:3,
+        slidesToShow:2,
         asNavFor:'.sliderbig',
+        variableWidth: true,
     });
     $('.sliderbig').slick({
         arrows:false,
